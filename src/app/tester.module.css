@@ -1,0 +1,88 @@
+button.fontSize, input.fontSize{
+    margin: 0.5em;
+    padding: 0.5em;
+    position: relative;
+    width:2em;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    transition: all 0.2s ease;
+    background-color:transparent;
+    color: var(--burgundy);
+}
+
+button.fontSize:hover {
+    aspect-ratio: 1;
+    background-color:var(--peach-alpha-200);
+    border-color: var(--peach);
+    transform: scale(1.1);
+    z-index: 1;
+    cursor: pointer;
+    color: var(--burgundy);
+}
+
+.toolbar{
+    display: flex;
+    justify-items: center;
+    margin-bottom: 1rem;
+    color: var(--burgundy);
+    vertical-align: center;
+}
+
+.sizeValue{
+    position: relative;
+    aspect-ratio: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    transition: all 0.2s ease;
+    background-color:transparent;
+    color: var(--burgundy);
+}
+
+.textArea{
+    width: fit-content;
+    min-height:100vh;
+    background: var(--peach-alpha-100);
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y proximity;
+    color: var(--burgundy);
+    display:flex;
+    flex-direction: row;
+    padding:2rem;
+    align-items: center;
+    align-content: space-evenly;
+
+}
+
+.textBlocks{
+    align-content: space-between;
+}
+
+
+.textInput{
+    font-size:2rem;
+    position: relative;
+    scroll-behavior: smooth;
+    border: none;
+    background:transparent;
+    vertical-align: center;
+
+}
+
+.textBlock{
+    display:inline-flex;
+    flex-direction: row;
+    gap:2rem;
+    padding:2rem;
+
+}

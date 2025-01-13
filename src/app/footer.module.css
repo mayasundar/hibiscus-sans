@@ -1,0 +1,56 @@
+.textArea{
+    width:100%;
+    height:100%;
+}
+
+.details{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    background: var(--peach-alpha-500) ;
+    color: var(--darkrose) ;
+    padding-inline: 1em;
+    vertical-align: baseline;
+    padding: 2em;
+}
+
+.footerLink {
+    grid-row-start: 3;
+    display: flex;
+    gap: 24px;
+    padding:2em;
+}
+
+.footerLink a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footerLink img {
+    flex-shrink: 0;
+}
+
+
+.glyphDetail{
+    transform: rotate(-15deg);
+    font-size:10rem;
+
+}
+
+.glyphDetail:nth-child(2n){
+    transform: rotate(10deg);
+    font-size:8rem;
+
+}
+
+.glyphDetail:nth-child(3n){
+    transform: rotate(-10deg);
+    font-size:12rem;
+
+}
+
+.glyphDetail:nth-child(4n){
+    transform: rotate(10deg);
+    font-size:6rem;
+
+}

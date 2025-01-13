@@ -1,0 +1,56 @@
+:root {
+  --background: rgba(247, 208, 203, 0.1);
+  --foreground: #171717;
+  --burgundy:#630402;
+  --red: #BD1B2D;
+  --darkrose: #a90636;
+  --rose: #DD5D68;
+  --pink: #ECA3A9;
+  --peach:#F7D0CB;
+  --font-hibiscus: "Hibiscus Sans", sans-serif;
+  --peach-rgb: 247, 208, 203;
+  --peach-alpha-500: rgba(var(--peach-rgb), 0.5);
+  --peach-alpha-400: rgba(var(--peach-rgb), 0.4);
+  --peach-alpha-300: rgba(var(--peach-rgb), 0.25);
+  --peach-alpha-200: rgba(var(--peach-rgb), 0.08);
+  --peach-alpha-100: rgba(var(--peach-rgb), 0.05);
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--peach-alpha-300);
+  font-family: var(--font-hibiscus);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
