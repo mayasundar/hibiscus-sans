@@ -1,5 +1,5 @@
 import {useEffect, useRef} from "react";
-import canvas from "./canvas.module.css";
+import canvasStyles from "./canvas.module.css";
 
 interface LineStyle {
     color?: string;
@@ -46,7 +46,7 @@ export function Canvas() {
     }
 
     return (
-        <div className={canvas.canvas}>
+        <div className={canvasStyles.canvasPad}>
             <canvas ref={canvas} width={500} height={520}/>
         </div>
     );
