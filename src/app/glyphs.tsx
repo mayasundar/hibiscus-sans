@@ -46,7 +46,7 @@ export function Glyphs() {
                     <span>ascender</span>
                     <span>732</span>
                 </div>
-                <div className={glyph.anatomy} style={{ position: 'absolute', top: '175px', fontSize: '12px', pointerEvents: 'none' }}>
+                <div className={glyph.anatomy} style={{ position: 'absolute', top: '180px', fontSize: '12px', pointerEvents: 'none' }}>
                     <span>x-height</span>
                     <span>525</span>
                 </div>
@@ -75,7 +75,7 @@ export function Glyphs() {
             <div className={glyph.characterSets}>
                 {Object.entries(glyphs).map(([setName, chars]) => (
                     <div key={setName} className={glyph.characterSet}>
-                        <h2>{setName}</h2>
+                        <div className={glyph.characterSetTxt}>{setName}</div>
                         <div className={glyph.characterGrid}>
                             {chars.map((char) => (
                                 <button

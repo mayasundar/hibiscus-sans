@@ -1,6 +1,6 @@
 .textArea{
     width:100%;
-    height:100%;
+    height:50vh;
 }
 
 .details{
@@ -18,6 +18,10 @@
     display: flex;
     gap: 24px;
     padding:2em;
+    background: var(--peach-alpha-300) ;
+    color: var(--darkrose) ;
+
+
 }
 
 .footerLink a {

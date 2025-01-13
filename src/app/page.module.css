@@ -2,9 +2,6 @@
   color: var(--burgundy);
   min-height: 100svh;
   font-family: var(--font-hibiscus);
-  overflow-y: scroll;
-  scroll-behavior: smooth;
-    scroll-snap-type: y proximity;
 }
 
 .header{
