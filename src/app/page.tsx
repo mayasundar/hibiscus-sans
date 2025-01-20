@@ -29,7 +29,7 @@ export default function Home() {
           <div className={styles.about}>
             <div>
               <a
-                  href="../../public/fonts/HibiscusSans-Regular.otf"
+                  href="../../public/fonts/HibiscusSans.otf"
                   download="HibiscusSans-Regular.otf"
               >
                 ↓ Download v1.001

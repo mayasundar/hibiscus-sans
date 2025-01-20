@@ -2,7 +2,7 @@ import "./globals.css";
 import localFont from "next/font/local";
 
 const hibiscus = localFont({
-    src: "../../public/fonts/HibiscusSans-Regular.otf",
+    src: "../../public/fonts/HibiscusSans.otf",
     variable: "--font-hibiscus",
 });
 
