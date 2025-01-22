@@ -16,12 +16,10 @@
     scroll-behavior: smooth;
     scroll-snap-type: y proximity;
     color: var(--burgundy);
-    padding:2rem;
 }
 
 .characterDisplay{
     padding-left: 2rem;
-    padding-right:2rem;
     width: 50vw;
     max-height:100vh;
     justify-items: center;
@@ -33,7 +31,9 @@
 }
 
 .characterSets {
-    padding: 2rem;
+    padding-bottom:0.5rem;
+    padding-top:0.5rem;
+
     width: 50vw;
     max-height:100vh;
     position: relative;
@@ -124,7 +124,7 @@ button.gridCell:hover {
 .characterLarge{
     color: var(--darkrose);
     display: inline-block;
-    line-height: 1;
+    padding-top:1.5rem;
 }
 
 
