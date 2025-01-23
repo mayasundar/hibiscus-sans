@@ -20,6 +20,7 @@
 
 .characterDisplay{
     padding-left: 2rem;
+    padding-right:2rem;
     width: 50vw;
     max-height:100vh;
     justify-items: center;
@@ -31,11 +32,9 @@
 }
 
 .characterSets {
-    padding-bottom:0.5rem;
-    padding-top:0.5rem;
-
+    padding: 2rem;
     width: 50vw;
-    max-height:100vh;
+    min-height:100vh;
     position: relative;
     color: var(--darkrose);
 
@@ -45,14 +44,12 @@
     margin-bottom: 0.5rem;
 }
 
-
 .characterSetTxt{
-    margin-bottom: 0.5rem;
     font-size:1.5rem
 }
 .characterGrid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(60px, max-content));
     gap: 0.5rem;
     text-wrap: normal;
     padding-bottom:0.5rem;
@@ -63,7 +60,6 @@
 button.gridCell {
     color: var(--burgundy);
     font-family: var(--font-hibiscus);
-
     position: relative;
     aspect-ratio: 1;
     display: block;
@@ -96,11 +92,19 @@ button.gridCell:hover {
 }
 
 .anatomy {
+    padding-right:5rem;
     display: flex;
     width:100%;
-    padding-right:5vw;
     justify-content: space-between;
     color: var(--darkrose);
+}
+
+.canvas{
+    width: 50vw;
+    justify-items: center;
+    left: 0;
+    top: 0;
+
 }
 
 .selectedChar{
@@ -145,7 +149,7 @@ button.gridCell:hover {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1010px) {
     .display {
         flex-direction: column;
         overflow-y:visible;
@@ -162,21 +166,23 @@ button.gridCell:hover {
     .characterSets {
         width: 100%;
         height:100%;
-        padding: 1rem;
+        padding: 2rem;
     }
 
     .characterGrid {
-        grid-template-columns: repeat(auto-fill, minmax(48px, 1fr));  /* Smaller grid items */
+        grid-template-columns: repeat(auto-fill, minmax(48px, max-content));
         gap: 0.25rem;
+        text-wrap: normal;
+
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    .characterDisplay {
-        width: 40vw;
-    }
+/*@media screen and (min-width: 769px) and (max-width: 1024px) {*/
+/*    .characterDisplay {*/
+/*        width: 40vw;*/
+/*    }*/
 
-    .characterSets {
-        width: 60vw;
-    }
-}
+/*    .characterSets {*/
+/*        width: 60vw;*/
+/*    }*/
+/*}*/

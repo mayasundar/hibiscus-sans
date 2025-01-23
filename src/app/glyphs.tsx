@@ -42,6 +42,18 @@ export function Glyphs() {
                 <div className={glyph.canvas}>
                     <Canvas/>
                 </div>
+
+
+                <span className={glyph.characterLarge} style={{
+                    position: 'absolute',
+                    top: '0px',
+                    left: '50%',
+                    transform: 'translateX(-50%)',
+                    fontSize: '500px',
+                    pointerEvents: 'none'
+                }}>
+          {selectedChar}
+                    </span>
                 <div className={glyph.anatomy} style={{ position: 'absolute', top: '75px', fontSize: '12px', pointerEvents: 'none' }}>
                     <span>ascender</span>
                     <span>732</span>
@@ -59,17 +71,6 @@ export function Glyphs() {
                     <span>-220</span>
                 </div>
 
-
-                <span className={glyph.characterLarge} style={{
-                    position: 'absolute',
-                    top: '0px',
-                    left: '50%',
-                    transform: 'translateX(-50%)',
-                    fontSize: '500px',
-                    pointerEvents: 'none'
-                }}>
-          {selectedChar}
-                    </span>
             </div>
 
             <div className={glyph.characterSets}>

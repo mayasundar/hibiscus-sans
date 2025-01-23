@@ -17,11 +17,12 @@ export default function Home() {
                 </div>
               </div>
 
-              <Image                             aria-hidden
-                                                                               src="/hibiscus.png"
-                                                                               alt="Hibiscus painting"
-                                                                               width={528}
-                                                                               height={396}
+              <Image  className={styles.img}
+                      aria-hidden
+                      src="/hibiscus.png"
+                      alt="Hibiscus painting"
+                      width={528}
+                      height={396}
               />
             </div>
           </div>
