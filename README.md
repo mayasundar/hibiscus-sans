@@ -1,26 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+![hibiscus-sans](https://github.com/user-attachments/assets/d66e8707-55eb-4f00-bcf3-5becb790efca)
 
-## Getting Started
+# Info
 
-First, run the development server:
+Hibiscus is a playful sans-serif font with a handwritten feel designed by Maya Sundar ([https://mayasundar.com/](https://mayasundar.com/)).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+v1.001 features 104 basic Latin glyphs (A-Z, a-z, 0-9, basic punctuation). Variable weight & extended Latin coverage is planned.
 
-To deploy, delete the build cache in `.next` and run:
+You can view the current character set & test strings via the minisite ([https://hibiscus-sans.vercel.app/](https://hibiscus-sans.vercel.app/)).
 
-```bash
-vercel build
-vercel deploy #for staging
-vercel --prod #for production
-```
+# Changelog
 
+**v1.001** Jan 26, 2025
+- 104 glyphs
 
-
+# License
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: [https://openfontlicense.org](https://openfontlicense.org).
